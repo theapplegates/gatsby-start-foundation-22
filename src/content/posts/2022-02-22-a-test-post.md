@@ -10,4 +10,3 @@ A simple test post with a yummy egg meal.
 
 
 
-![an-egg](/assets/egg-meal.jpg)
