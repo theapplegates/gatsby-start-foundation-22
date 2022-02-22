@@ -38,16 +38,15 @@ module.exports = {
         gfm: true,
         plugins: [
           netlifyCmsPaths,
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1024,
-              showCaptions: true,
-              linkImagesToOriginal: false,
-              tracedSVG: true,
-              loading: "lazy",
+            {
+              resolve: `gatsby-remark-images`,
+              options: {
+                maxWidth: 1024,
+                linkImagesToOriginal: false,
+                withAvif: true,
+                withWebp: true,
+              },
             },
-          },
           {
             resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
             options: {
